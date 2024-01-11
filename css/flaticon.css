@@ -1,0 +1,215 @@
+@font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.ttf") format("truetype"),
+url("../fonts/Flaticon.woff") format("woff"),
+url("../fonts/Flaticon.woff2") format("woff2"),
+url("../fonts/Flaticon.eot?40d4b6fdec78d78ea8cc033587671d95#iefix") format("embedded-opentype"),
+url("../fonts/Flaticon.svg?40d4b6fdec78d78ea8cc033587671d95#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" pbmit-builto-icon-"]:before {
+    font-family: "Flaticon";
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.pbmit-builto-icon-upgrade:before {
+    content: "\f101";
+}
+.pbmit-builto-icon-hammer:before {
+    content: "\f102";
+}
+.pbmit-builto-icon-calculator:before {
+    content: "\f103";
+}
+.pbmit-builto-icon-setting:before {
+    content: "\f104";
+}
+.pbmit-builto-icon-pickaxe:before {
+    content: "\f105";
+}
+.pbmit-builto-icon-wall:before {
+    content: "\f106";
+}
+.pbmit-builto-icon-camera-drone:before {
+    content: "\f107";
+}
+.pbmit-builto-icon-road:before {
+    content: "\f108";
+}
+.pbmit-builto-icon-warning-sign:before {
+    content: "\f109";
+}
+.pbmit-builto-icon-ruler:before {
+    content: "\f10a";
+}
+.pbmit-builto-icon-monitor-screen:before {
+    content: "\f10b";
+}
+.pbmit-builto-icon-building:before {
+    content: "\f10c";
+}
+.pbmit-builto-icon-wrench:before {
+    content: "\f10d";
+}
+.pbmit-builto-icon-pencil:before {
+    content: "\f10e";
+}
+.pbmit-builto-icon-clipboard:before {
+    content: "\f10f";
+}
+.pbmit-builto-icon-plug:before {
+    content: "\f110";
+}
+.pbmit-builto-icon-house:before {
+    content: "\f111";
+}
+.pbmit-builto-icon-wagon:before {
+    content: "\f112";
+}
+.pbmit-builto-icon-ladder:before {
+    content: "\f113";
+}
+.pbmit-builto-icon-torch:before {
+    content: "\f114";
+}
+.pbmit-builto-icon-screw:before {
+    content: "\f115";
+}
+.pbmit-builto-icon-conveyor-belt:before {
+    content: "\f116";
+}
+.pbmit-builto-icon-screw-driver:before {
+    content: "\f117";
+}
+.pbmit-builto-icon-drilling-machine:before {
+    content: "\f118";
+}
+.pbmit-builto-icon-web-browser:before {
+    content: "\f119";
+}
+.pbmit-builto-icon-saw:before {
+    content: "\f11a";
+}
+.pbmit-builto-icon-setting-1:before {
+    content: "\f11b";
+}
+.pbmit-builto-icon-road-barrier:before {
+    content: "\f11c";
+}
+.pbmit-builto-icon-axe:before {
+    content: "\f11d";
+}
+.pbmit-builto-icon-divider:before {
+    content: "\f11e";
+}
+.pbmit-builto-icon-spirit-level:before {
+    content: "\f11f";
+}
+.pbmit-builto-icon-road-map:before {
+    content: "\f120";
+}
+.pbmit-builto-icon-mail:before {
+    content: "\f121";
+}
+.pbmit-builto-icon-wall-clock:before {
+    content: "\f122";
+}
+.pbmit-builto-icon-measuring-tape:before {
+    content: "\f123";
+}
+.pbmit-builto-icon-ruler-1:before {
+    content: "\f124";
+}
+.pbmit-builto-icon-screw-1:before {
+    content: "\f125";
+}
+.pbmit-builto-icon-battery:before {
+    content: "\f126";
+}
+.pbmit-builto-icon-helmet:before {
+    content: "\f127";
+}
+.pbmit-builto-icon-ruler-2:before {
+    content: "\f128";
+}
+.pbmit-builto-icon-jackhammer:before {
+    content: "\f129";
+}
+.pbmit-builto-icon-cross-wrench:before {
+    content: "\f12a";
+}
+.pbmit-builto-icon-factory:before {
+    content: "\f12b";
+}
+.pbmit-builto-icon-pie-chart:before {
+    content: "\f12c";
+}
+.pbmit-builto-icon-cutter:before {
+    content: "\f12d";
+}
+.pbmit-builto-icon-container:before {
+    content: "\f12e";
+}
+.pbmit-builto-icon-customer-support:before {
+    content: "\f12f";
+}
+.pbmit-builto-icon-construction-worker:before {
+    content: "\f130";
+}
+.pbmit-builto-icon-blueprint:before {
+    content: "\f131";
+}
+.pbmit-builto-icon-sketch:before {
+    content: "\f132";
+}
+.pbmit-builto-icon-excavator:before {
+    content: "\f133";
+}
+.pbmit-builto-icon-helmet-1:before {
+    content: "\f134";
+}
+.pbmit-builto-icon-email:before {
+    content: "\f135";
+}
+.pbmit-builto-icon-envelope:before {
+    content: "\f136";
+}
+.pbmit-builto-icon-call:before {
+    content: "\f137";
+}
+.pbmit-builto-icon-phone-call:before {
+    content: "\f138";
+}
+.pbmit-builto-icon-pin:before {
+    content: "\f139";
+}
+.pbmit-builto-icon-pin-1:before {
+    content: "\f13a";
+}
+.pbmit-builto-icon-check-mark:before {
+    content: "\f13b";
+}
+.pbmit-builto-icon-check-box:before {
+    content: "\f13c";
+}
+.pbmit-builto-icon-check:before {
+    content: "\f13d";
+}
+.pbmit-builto-icon-dot:before {
+    content: "\f13e";
+}
+.pbmit-builto-icon-period:before {
+    content: "\f13f";
+}
+.pbmit-builto-icon-plus:before {
+    content: "\f140";
+}
+.pbmit-builto-icon-minimize-sign:before {
+    content: "\f141";
+}
