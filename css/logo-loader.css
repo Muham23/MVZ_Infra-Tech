@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#logo-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    animation: zoomInOut 2s ease-in-out infinite;
+}
+
+#company-logo {
+    width: 200px; /* Set the size of your logo as needed */
+    height: auto;
+}
+
+#content-container {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes zoomInOut {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
