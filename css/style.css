@@ -275,7 +275,7 @@
 	padding-top: 15px;
 }
 .who-we-are-three_content{
-	padding: 120px 22px 0px 55px;
+	padding: 60px 22px 0px 55px;
 }
 .who-we-are-three_content .pbmit-title{
 	text-transform: uppercase;
@@ -285,7 +285,7 @@
 	padding-top: 35px;
 }
 .who-we-are-three_fidbox{
-	border-top: 1px solid #CCCCCC;
+	/* border-top: 1px solid #CCCCCC; */
 	margin-top: 40px;
     margin-bottom: 15px;
     padding: 40px 0px 0px 0px;

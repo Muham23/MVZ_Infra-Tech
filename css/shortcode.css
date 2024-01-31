@@ -2166,7 +2166,8 @@ body {
     color: var(--pbmit-secondary-color);
 }
 .header-style-1 .pbmit-logo-area {
-    background-color: var(--pbmit-light-color);
+    /* background-color: var(--pbmit-light-color); */
+	background-color: rgb(23,65,91);
     padding: 0 50px 0 35px;
 }
 /** Header Style 2 **/
@@ -2223,7 +2224,7 @@ body {
 	color: rgba(255, 255, 255,.6);
 	padding: 105px 0 0px 0;
     border-top: 1px solid rgba(7, 19, 35, 0.1);
-	background-color: #0a1229;
+	background-color: rgb(23,65,91);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
@@ -2882,7 +2883,8 @@ body {
 }
 #rev_slider_1_1_wrapper .persephone.tparrows{
 	cursor:pointer;
-	background:#f9ad00;
+	/* background:#f9ad00; */
+	background:rgb(228,197,177);
 	width:70px;
 	height:70px;
 	position:absolute;
@@ -3201,10 +3203,10 @@ body {
 }
 /** Style 2 **/
 .pbmit-client-style-2 {
-    padding: 50px 50px;
+    padding: 75px 100px;
 	margin-bottom: 0;
     text-align: center;
-	height: 200px !important;
+	height: 100%;
     border-left: 1px solid #cecece;
 }
 .pbmit-client-style-2 .pbmit-client-wrapper {

@@ -16,15 +16,16 @@ INDEX:
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet');
  :root {
-     --pbmit-global-color: #f9ad00;
-     --pbmit-secondary-color: #001e4c;
+     --pbmit-global-color: rgb(228,197,177);
+     --pbmit-secondary-color: rgb(23,65,91);
      --pbmit-light-color: #f1f1f1;
      --pbmit-white-color: #ffffff;
      --pbmit-blackish-color: #071323;
      --pbmit-link-color-normal: #001e4c;
-     --pbmit-link-color-hover: #f9ad00;
-     --pbmit-global-color-rgb: rgb(249, 173, 0);
-     --pbmit-secondary-color-rgb:rgb(0, 30, 76);
+     --pbmit-global-color-rgb: rgb(228,197,177);
+     --pbmit-link-color-hover: rgb(228,197,177);
+     --pbmit-global-color-rgb: rgb(228,197,177);
+     --pbmit-secondary-color-rgb: rgb(23,65,91);
      --pbmit-responsive-breakpoint: 1200px;
      --pbmit-body-typography-font-family:'Rubik', sans-serif;
      --pbmit-body-typography-variant: regular;
