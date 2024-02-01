@@ -75,7 +75,7 @@ body {
 	}
 	/*=== Homepage-03 ===*/ 
 	.who-we-are-three_content{
-		padding: 100px 10px 0px 30px;
+		/* padding: 100px 10px 0px 30px; */
 	}
 	.client-section_three{
 		padding: 170px 0px 60px 0px;
@@ -122,6 +122,7 @@ body {
 	/*=== Header ===*/
 	.header-style-1 .pbmit-logo-area{
 		padding: 0 30px 0 25px;
+		background-color: rgb(23,65,91) !important;
 	}
 	.header-style-1.site-header .site-navigation{
 		padding-left: 10px;
@@ -226,7 +227,7 @@ body {
    .main-menu ul > li.dropdown > ul > li.dropdown::after {
 		position: absolute;
 		right: 25px;
-		font-family: "pbminfotech-base-icons";
+		font-family: "mvzinfotech-base-icons";
 		font-size: 16px;
 		content: "\e814";
 		font-weight: 600;
@@ -602,7 +603,7 @@ body {
 		line-height: 56px;
 	}
 	/*=== Homepage 01 ===*/
-	.pbmit-tab .pbminfotech-tabs-heading{
+	.pbmit-tab .mvzinfotech-tabs-heading{
 		font-size: 30px;
 		line-height: 40px;
 	}
@@ -621,7 +622,7 @@ body {
 		padding: 100px 10px 0px 0px;
 	}
 	/*=== Portfolio Grid Col ===*/
-	.pbmit-portfolio-style-2 .pbminfotech-box-content {
+	.pbmit-portfolio-style-2 .mvzinfotech-box-content {
 		bottom: 30px;
 		left: 30px;
 		padding: 25px;
@@ -707,13 +708,13 @@ body {
 		padding-right: 13px;
 	}
 	.fid_bg .pbmit-col-wrapper:last-child{
-		padding: 50px 12px 0 15px;
+		/* padding: 50px 12px 0 15px; */
 	}
 	.tab-section_one{
 		margin-top: 80px;
 		padding: 0 15px;
 	}
-	.pbmit-tab .pbminfotech-tabs-heading {
+	.pbmit-tab .mvzinfotech-tabs-heading {
 		font-size: 26px;
 		line-height: 30px;
 	}
@@ -863,10 +864,10 @@ body {
 	.pricing_desc{
 		padding-left: 0;
 	}
-	.pbminfotech-ptable-style-1 .pbmit-pricing-table-box{
+	.mvzinfotech-ptable-style-1 .pbmit-pricing-table-box{
 		padding: 30px;
 	}
-	.pbminfotech-ptable-style-1 .pbminfotech-ptable-frequency{
+	.mvzinfotech-ptable-style-1 .mvzinfotech-ptable-frequency{
 		margin-left: 12px;
 		font-size: 15px;
 	}
@@ -888,7 +889,7 @@ body {
 		padding-left: 0;
 	}
 	/*=== Portfolio Grid Col ===*/
-	.pbmit-portfolio-style-2 .pbminfotech-box-content {
+	.pbmit-portfolio-style-2 .mvzinfotech-box-content {
 		bottom: 25px;
 		left: 25px;
 		padding: 20px;
@@ -981,7 +982,7 @@ body {
 		padding-top: 0;
 		flex-wrap: inherit;
 	}
-	.pbmit-tab .pbminfotech-tabs-heading{
+	.pbmit-tab .mvzinfotech-tabs-heading{
 		font-size: 22px;
     	padding-right: 20px;
 	}
@@ -999,11 +1000,11 @@ body {
 	.who-we-are-three_right img {
 		width: 100%;
 	}
-	.pbmit-portfolio-style-1 .pbminfotech-box-content{
+	.pbmit-portfolio-style-1 .mvzinfotech-box-content{
 		left: 20px;
 		padding: 20px 20px;
 	}
-	.pbmit-portfolio-style-1 .pbminfotech-titlebox h3{
+	.pbmit-portfolio-style-1 .mvzinfotech-titlebox h3{
 		font-size: 20px;
     	line-height: 28px;
 	}
@@ -1017,7 +1018,7 @@ body {
 		padding-top: 30px;
 	}
 	/*=== Pricing ===*/	
-	.pbminfotech-ptable-style-1 .pbmit-ptable-cols .pbmit-ptable-col{
+	.mvzinfotech-ptable-style-1 .pbmit-ptable-cols .pbmit-ptable-col{
 		margin-bottom: 30px;
 	}
 	/*=== Sidebar ===*/	
@@ -1176,7 +1177,7 @@ body {
 	.pbmit-tab .nav-tabs{
 		display: block;
 	}
-	.pbmit-tab .pbminfotech-tabs-heading {
+	.pbmit-tab .mvzinfotech-tabs-heading {
 		font-size: 30px;
 		padding-right: 20px;
 	}
@@ -1193,7 +1194,7 @@ body {
 	.testimonial-one_col_2{
 		width: 100%;
 	}
-	.pbmit-testimonial-style-1 .pbminfotech-post-item{
+	.pbmit-testimonial-style-1 .mvzinfotech-post-item{
 		display: block !important;
 	}
 	.pbmit-testimonial-style-1 .pbmit-featured-img-wrapper{
@@ -1203,7 +1204,7 @@ body {
 		margin-right: 0;
     	width: 100%;
 	}
-	.pbmit-testimonial-style-1 .pbminfotech-box-content {
+	.pbmit-testimonial-style-1 .mvzinfotech-box-content {
 		padding-top: 115px;
 	}
 	.testimonial-section_one .swiper-horizontal>.swiper-pagination-bullets{
@@ -1272,13 +1273,13 @@ body {
 	.who-we-are-three_right img{
 		width: 100%;
 	}
-	.pbminfotech-ele-fid-style-3 .pbmit-fld-wrap {
+	.mvzinfotech-ele-fid-style-3 .pbmit-fld-wrap {
 		display: block !important;
 	}
-	.pbminfotech-ele-fid-style-3 .pbmit-heading-desc {
+	.mvzinfotech-ele-fid-style-3 .pbmit-heading-desc {
 		padding: 20px 0;
 	}
-	.pbminfotech-ele-fid-style-3 a.pbmit-svg-btn {
+	.mvzinfotech-ele-fid-style-3 a.pbmit-svg-btn {
 		padding-left: 0;
 	}
 	.portfolio_three {
@@ -1385,7 +1386,7 @@ body {
 		padding-bottom: 30px;
 	}
 	/*=== Portfolio Grid Col ===*/
-	.pbmit-portfolio-style-2 .pbminfotech-box-content {
+	.pbmit-portfolio-style-2 .mvzinfotech-box-content {
 		bottom: 20px;
 		left: 20px;
 		padding: 30px;
@@ -1478,7 +1479,7 @@ body {
 		line-height: 48px;
 	}
 	/*=== Homepage 01 ===*/ 
-	.pbmit-tab .pbminfotech-tabs-heading {
+	.pbmit-tab .mvzinfotech-tabs-heading {
 		font-size: 22px;
 		padding-right: 30px;
 	}
@@ -1614,6 +1615,24 @@ body {
 	}
 	.pbmit-pf-col_2 {
 		width: 65%;
+	}
+	.testimonial-one_col_1{
+		padding-bottom: 25px;
+	}
+	.testimonial-one-text_editor p {
+		display: inline;
+		align-items: center;
+		gap: 8px; /* Adjust the gap between the icon and the text */
+		white-space: nowrap; /* Prevents the text from wrapping */
+		overflow: hidden; /* Hide overflow */
+		text-overflow: ellipsis;
+		padding-right: 80px; /* Add an ellipsis to overflowing text */
+	}
+	.pbmit-base-icon-user,
+	.pbmit-base-icon-menu-2,
+	.pbmit-base-icon-marker {
+		min-width: 20px;
+		text-align: center;
 	}
 }
 

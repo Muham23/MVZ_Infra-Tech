@@ -300,8 +300,8 @@ function pbmt_scroller_portfolio() {
     ScrollTrigger.matchMedia({
         "(min-width:1200px)": function() {
 
-            gsap.set(".pbmit-element-portfolio-style-3  .pbminfotech-img-wrapper", { zIndex: (i, target, targets) => targets.length - i });
-            const images = gsap.utils.toArray('.pbmit-element-portfolio-style-3 .pbminfotech-img-wrapper:not(:last-child)');
+            gsap.set(".pbmit-element-portfolio-style-3  .mvzinfotech-img-wrapper", { zIndex: (i, target, targets) => targets.length - i });
+            const images = gsap.utils.toArray('.pbmit-element-portfolio-style-3 .mvzinfotech-img-wrapper:not(:last-child)');
             gsap.set(".pbmit-element-portfolio-style-3 ", { height: ((images.length + 1) * 100) + 'vh' });
 
             images.forEach((image, i) => {
@@ -319,7 +319,7 @@ function pbmt_scroller_portfolio() {
             });
             ScrollTrigger.create({
                 trigger: ".pbmit-element-portfolio-style-3",
-                pin: '.pbmit-element-portfolio-style-3 .pbminfotech-img-box',
+                pin: '.pbmit-element-portfolio-style-3 .mvzinfotech-img-box',
                 start: () => "top top",
                 end: () => "+=" + ((images.length) * (window.innerHeight)),
                 invalidateOnRefresh: true,
@@ -478,7 +478,7 @@ function pbmit_title_animation() {
 function pbmit_set_tooltip() {
     $('[data-cursor-tooltip]').each(function() {
         var thisele = $(this);
-        var thisele_html = thisele.find('.pbminfotech-box-content').html();
+        var thisele_html = thisele.find('.mvzinfotech-box-content').html();
         thisele.attr("data-cursor-tooltip", thisele_html);
     });
 }

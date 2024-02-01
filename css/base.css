@@ -610,7 +610,7 @@ INDEX:
      transition: all 300ms ease;
 }
  .main-menu ul > li.dropdown > a:after {
-     font-family: "pbminfotech-base-icons";
+     font-family: "mvzinfotech-base-icons";
      content: '\e811';
      margin-left: 5px;
      font-size: 10px;
@@ -742,7 +742,7 @@ INDEX:
 	background-color: var(--pbmit-blackish-color);
  }
  .swiper-button-next:after, .swiper-button-prev:after {
-     font-family: "pbminfotech-base-icons";
+     font-family: "mvzinfotech-base-icons";
      font-size: 20px;
      color: var(--pbmit-blackish-color);
      transition: all 500ms ease;
@@ -833,7 +833,7 @@ INDEX:
 .pbmit-progress-wrap::before {
     position: absolute;
     content: '\e812';
-    font-family: pbminfotech-base-icons;
+    font-family: mvzinfotech-base-icons;
     text-align: center;
     line-height: 46px;
     font-size: 24px;
@@ -861,7 +861,7 @@ INDEX:
 .pbmit-progress-wrap::after {
     position: absolute;
     content: '\e812';
-    font-family: "pbminfotech-base-icons";
+    font-family: "mvzinfotech-base-icons";
     text-align: center;
     line-height: 46px;
     font-size: 24px;
@@ -974,7 +974,7 @@ INDEX:
     animation-delay: 0.8s;
 }
 .pbmit-search-overlay .pbmit-site-searchform:after{
-	font-family: "pbminfotech-base-icons";
+	font-family: "mvzinfotech-base-icons";
     content: '\e80d';
     position: absolute;
     right: 10px;

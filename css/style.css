@@ -268,14 +268,14 @@
 	padding-right: 42px;
 }
 .who-we-are-sec_three{
-	padding: 120px 0px 105px 0px;
+	/* padding: 120px 0px 105px 0px; */
 }
 .who-we-are-three_box{
-	border-top: 1px solid #CCCCCC;
+	/* border-top: 1px solid #CCCCCC; */
 	padding-top: 15px;
 }
 .who-we-are-three_content{
-	padding: 60px 22px 0px 55px;
+	/* padding: 60px 22px 0px 55px; */
 }
 .who-we-are-three_content .pbmit-title{
 	text-transform: uppercase;
@@ -286,7 +286,7 @@
 }
 .who-we-are-three_fidbox{
 	/* border-top: 1px solid #CCCCCC; */
-	margin-top: 40px;
+	/* margin-top: 40px; */
     margin-bottom: 15px;
     padding: 40px 0px 0px 0px;
 }
@@ -571,7 +571,7 @@
     right: 18px;
     font-size: 15px;
     color: inherit;
-    font-family: "pbminfotech-base-icons";
+    font-family: "mvzinfotech-base-icons";
     top: 50%;
     margin-top: -13px;
     rotate: -45deg;
@@ -899,7 +899,7 @@
 }
 .widget .search-form .search-submit:after{
 	position: absolute;
-    font-family: 'pbminfotech-base-icons';
+    font-family: 'mvzinfotech-base-icons';
     content: '\e80d';
     right: 15px;
     top: 50%;
@@ -1212,7 +1212,7 @@ aside.widget.widget-tag-cloud a:hover,
 .pbmit-entry_content blockquote:after{
 	position: absolute;
     content: "\e8d6";
-    font-family: "pbminfotech-base-icons";
+    font-family: "mvzinfotech-base-icons";
     font-size: 85px;
     line-height: 80px;
     left: 1px;
@@ -1541,7 +1541,7 @@ span.pbmit-post-nav-wrapper,
 	border: none;
 }
 .comment-respond .comment-form .submit-btn:after{
-	font-family: "pbminfotech-base-icons";
+	font-family: "mvzinfotech-base-icons";
     content: "\e815";
     font-style: normal;
     speak: none;
@@ -1930,5 +1930,8 @@ textarea.form-control{
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+.testimonial-title{
+    color: var(--pbmit-global-color) !important;
 }
 
