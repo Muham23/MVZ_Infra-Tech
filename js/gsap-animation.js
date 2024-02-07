@@ -768,7 +768,7 @@ $(window).on('load', function(){
     pbmit_moving_team();
     pbmit_verticle_slide_image();
     // Init cursor
-    const cursor = new Cursor();
+    // const cursor = new Cursor();
     $('[data-magnetic]').each(function() { new Magnetic(this); });
     gsap.delayedCall(1, () =>
         ScrollTrigger.getAll().forEach((t) => {
