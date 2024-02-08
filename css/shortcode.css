@@ -43,7 +43,7 @@ body {
 .pbmit-heading-subheading-1 .pbmit-subtitle{
     font-family: var(--pbmit-body-typography-font-family);
     font-weight: normal;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 28px;
     color: var(--pbmit-body-typography-color);
     text-transform: none;
@@ -882,7 +882,7 @@ body {
 }
 .pbmit-service-style-1 .pbmit-service-title{
 	margin-bottom: 95px;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 38px;
 	text-transform: uppercase;
 }

@@ -1039,3 +1039,7 @@ INDEX:
     color: var(--pbmit-white-color);
 }
 
+.pjustify{
+    text-align: justify;
+}
+

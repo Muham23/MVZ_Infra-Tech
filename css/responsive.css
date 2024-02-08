@@ -19,6 +19,9 @@ body {
 	.container-xxl {
 		max-width: 1200px;
 	}
+	#hideexceptmobile{
+		display: none;
+	}
 }
 
 @media (max-width: 1400px) {
@@ -197,6 +200,9 @@ body {
 	.container-xl,
 	.container-xxl {
 		max-width: 1300px;
+	}
+	#hideexceptmobile{
+		display: none;
 	}
 
 	/*=== Header ===*/
@@ -420,7 +426,6 @@ body {
 	.container-xxl {
 		max-width: none;
 	}
-
 	.container,
 	.container-fluid,
 	.container-lg,
@@ -612,11 +617,11 @@ body {
 	.footer .widget .widget-title {
 		font-size: 18px !important;
 	}
+	
 
 	.pbmit-footer-copyright-text-area {
 		font-size: 18px !important;
 	} */
-
 	/*end */
 
 	.site-header .site-navigation ul.navigation>li>a {
@@ -827,7 +832,9 @@ body {
 }
 
 @media(max-width:1024px) {
-
+	#hideexceptmobile{
+		display: none;
+	}
 	/*=== Section-Padding ===*/
 	.section-lg {
 		padding-top: 70px;
@@ -922,7 +929,7 @@ body {
 	}
 
 	.fid_bg .pbmit-col-wrapper:last-child {
-		/* padding: 50px 12px 0 15px; */
+		padding: 50px 12px 0 15px;
 	}
 
 	.tab-section_one {
@@ -1382,7 +1389,9 @@ body {
 }
 
 @media(min-width:768px) {
-
+	#hideexceptmobile{
+		display: none;
+	}
 	/*=== Homepage 03 ===*/
 	.who-we-are-three_col_1 {
 		width: 30.794%;
@@ -1407,7 +1416,12 @@ body {
 }
 
 @media(max-width:767px) {
-
+	#hideexceptmobile{
+		display: block;
+	}
+	.hideviewallproject{
+		display: none;
+	}
 	/*=== Revolution ===*/
 	.pbmit-slider-title {
 		line-height: 55px !important
@@ -1895,8 +1909,25 @@ body {
 
 	/*=== Homepage 01 ===*/
 	.pbmit-tab .mvzinfotech-tabs-heading {
-		font-size: 22px;
+		font-size: 16px;
 		padding-right: 30px;
+	}
+	.pbmit-marquee-effect-style-1 .pbmit-element-title{
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.pbmit-marquee-effect-style-1 .pbmit-tag-wrapper::after{
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.hideviewallproject{
+		display: none;
+	}
+	#hideexceptmobile{
+		display: block;
+	}
+	.mostreportnp {
+		margin-bottom:0px !important;
 	}
 
 	.pbmit-tab .pbmit-tabs-col.d-flex {

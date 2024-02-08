@@ -7,7 +7,7 @@ url("../fonts/flaticon.eot") format("embedded-opentype"),
 url("../fonts/flaticon.svg") format("svg");
 }
 
-i[class^="flaticon-"]:before, i[class*=" pbmit-builto-icon-"]:before {
+i[class^="flaticon-"]:before, i[class*=" pbmit-mvzinfratech-icon-"]:before {
     font-family: "Flaticon";
     font-style: normal;
     font-weight: normal !important;
@@ -18,198 +18,198 @@ i[class^="flaticon-"]:before, i[class*=" pbmit-builto-icon-"]:before {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.pbmit-builto-icon-upgrade:before {
+.pbmit-mvzinfratech-icon-upgrade:before {
     content: "\f101";
 }
-.pbmit-builto-icon-hammer:before {
+.pbmit-mvzinfratech-icon-hammer:before {
     content: "\f102";
 }
-.pbmit-builto-icon-calculator:before {
+.pbmit-mvzinfratech-icon-calculator:before {
     content: "\f103";
 }
-.pbmit-builto-icon-setting:before {
+.pbmit-mvzinfratech-icon-setting:before {
     content: "\f104";
 }
-.pbmit-builto-icon-pickaxe:before {
+.pbmit-mvzinfratech-icon-pickaxe:before {
     content: "\f105";
 }
-.pbmit-builto-icon-wall:before {
+.pbmit-mvzinfratech-icon-wall:before {
     content: "\f106";
 }
-.pbmit-builto-icon-camera-drone:before {
+.pbmit-mvzinfratech-icon-camera-drone:before {
     content: "\f107";
 }
-.pbmit-builto-icon-road:before {
+.pbmit-mvzinfratech-icon-road:before {
     content: "\f108";
 }
-.pbmit-builto-icon-warning-sign:before {
+.pbmit-mvzinfratech-icon-warning-sign:before {
     content: "\f109";
 }
-.pbmit-builto-icon-ruler:before {
+.pbmit-mvzinfratech-icon-ruler:before {
     content: "\f10a";
 }
-.pbmit-builto-icon-monitor-screen:before {
+.pbmit-mvzinfratech-icon-monitor-screen:before {
     content: "\f10b";
 }
-.pbmit-builto-icon-building:before {
+.pbmit-mvzinfratech-icon-building:before {
     content: "\f10c";
 }
-.pbmit-builto-icon-wrench:before {
+.pbmit-mvzinfratech-icon-wrench:before {
     content: "\f10d";
 }
-.pbmit-builto-icon-pencil:before {
+.pbmit-mvzinfratech-icon-pencil:before {
     content: "\f10e";
 }
-.pbmit-builto-icon-clipboard:before {
+.pbmit-mvzinfratech-icon-clipboard:before {
     content: "\f10f";
 }
-.pbmit-builto-icon-plug:before {
+.pbmit-mvzinfratech-icon-plug:before {
     content: "\f110";
 }
-.pbmit-builto-icon-house:before {
+.pbmit-mvzinfratech-icon-house:before {
     content: "\f111";
 }
-.pbmit-builto-icon-wagon:before {
+.pbmit-mvzinfratech-icon-wagon:before {
     content: "\f112";
 }
-.pbmit-builto-icon-ladder:before {
+.pbmit-mvzinfratech-icon-ladder:before {
     content: "\f113";
 }
-.pbmit-builto-icon-torch:before {
+.pbmit-mvzinfratech-icon-torch:before {
     content: "\f114";
 }
-.pbmit-builto-icon-screw:before {
+.pbmit-mvzinfratech-icon-screw:before {
     content: "\f115";
 }
-.pbmit-builto-icon-conveyor-belt:before {
+.pbmit-mvzinfratech-icon-conveyor-belt:before {
     content: "\f116";
 }
-.pbmit-builto-icon-screw-driver:before {
+.pbmit-mvzinfratech-icon-screw-driver:before {
     content: "\f117";
 }
-.pbmit-builto-icon-drilling-machine:before {
+.pbmit-mvzinfratech-icon-drilling-machine:before {
     content: "\f118";
 }
-.pbmit-builto-icon-web-browser:before {
+.pbmit-mvzinfratech-icon-web-browser:before {
     content: "\f119";
 }
-.pbmit-builto-icon-saw:before {
+.pbmit-mvzinfratech-icon-saw:before {
     content: "\f11a";
 }
-.pbmit-builto-icon-setting-1:before {
+.pbmit-mvzinfratech-icon-setting-1:before {
     content: "\f11b";
 }
-.pbmit-builto-icon-road-barrier:before {
+.pbmit-mvzinfratech-icon-road-barrier:before {
     content: "\f11c";
 }
-.pbmit-builto-icon-axe:before {
+.pbmit-mvzinfratech-icon-axe:before {
     content: "\f11d";
 }
-.pbmit-builto-icon-divider:before {
+.pbmit-mvzinfratech-icon-divider:before {
     content: "\f11e";
 }
-.pbmit-builto-icon-spirit-level:before {
+.pbmit-mvzinfratech-icon-spirit-level:before {
     content: "\f11f";
 }
-.pbmit-builto-icon-road-map:before {
+.pbmit-mvzinfratech-icon-road-map:before {
     content: "\f120";
 }
-.pbmit-builto-icon-mail:before {
+.pbmit-mvzinfratech-icon-mail:before {
     content: "\f121";
 }
-.pbmit-builto-icon-wall-clock:before {
+.pbmit-mvzinfratech-icon-wall-clock:before {
     content: "\f122";
 }
-.pbmit-builto-icon-measuring-tape:before {
+.pbmit-mvzinfratech-icon-measuring-tape:before {
     content: "\f123";
 }
-.pbmit-builto-icon-ruler-1:before {
+.pbmit-mvzinfratech-icon-ruler-1:before {
     content: "\f124";
 }
-.pbmit-builto-icon-screw-1:before {
+.pbmit-mvzinfratech-icon-screw-1:before {
     content: "\f125";
 }
-.pbmit-builto-icon-battery:before {
+.pbmit-mvzinfratech-icon-battery:before {
     content: "\f126";
 }
-.pbmit-builto-icon-helmet:before {
+.pbmit-mvzinfratech-icon-helmet:before {
     content: "\f127";
 }
-.pbmit-builto-icon-ruler-2:before {
+.pbmit-mvzinfratech-icon-ruler-2:before {
     content: "\f128";
 }
-.pbmit-builto-icon-jackhammer:before {
+.pbmit-mvzinfratech-icon-jackhammer:before {
     content: "\f129";
 }
-.pbmit-builto-icon-cross-wrench:before {
+.pbmit-mvzinfratech-icon-cross-wrench:before {
     content: "\f12a";
 }
-.pbmit-builto-icon-factory:before {
+.pbmit-mvzinfratech-icon-factory:before {
     content: "\f12b";
 }
-.pbmit-builto-icon-pie-chart:before {
+.pbmit-mvzinfratech-icon-pie-chart:before {
     content: "\f12c";
 }
-.pbmit-builto-icon-cutter:before {
+.pbmit-mvzinfratech-icon-cutter:before {
     content: "\f12d";
 }
-.pbmit-builto-icon-container:before {
+.pbmit-mvzinfratech-icon-container:before {
     content: "\f12e";
 }
-.pbmit-builto-icon-customer-support:before {
+.pbmit-mvzinfratech-icon-customer-support:before {
     content: "\f12f";
 }
-.pbmit-builto-icon-construction-worker:before {
+.pbmit-mvzinfratech-icon-construction-worker:before {
     content: "\f130";
 }
-.pbmit-builto-icon-blueprint:before {
+.pbmit-mvzinfratech-icon-blueprint:before {
     content: "\f131";
 }
-.pbmit-builto-icon-sketch:before {
+.pbmit-mvzinfratech-icon-sketch:before {
     content: "\f132";
 }
-.pbmit-builto-icon-excavator:before {
+.pbmit-mvzinfratech-icon-excavator:before {
     content: "\f133";
 }
-.pbmit-builto-icon-helmet-1:before {
+.pbmit-mvzinfratech-icon-helmet-1:before {
     content: "\f134";
 }
-.pbmit-builto-icon-email:before {
+.pbmit-mvzinfratech-icon-email:before {
     content: "\f135";
 }
-.pbmit-builto-icon-envelope:before {
+.pbmit-mvzinfratech-icon-envelope:before {
     content: "\f136";
 }
-.pbmit-builto-icon-call:before {
+.pbmit-mvzinfratech-icon-call:before {
     content: "\f137";
 }
-.pbmit-builto-icon-phone-call:before {
+.pbmit-mvzinfratech-icon-phone-call:before {
     content: "\f138";
 }
-.pbmit-builto-icon-pin:before {
+.pbmit-mvzinfratech-icon-pin:before {
     content: "\f139";
 }
-.pbmit-builto-icon-pin-1:before {
+.pbmit-mvzinfratech-icon-pin-1:before {
     content: "\f13a";
 }
-.pbmit-builto-icon-check-mark:before {
+.pbmit-mvzinfratech-icon-check-mark:before {
     content: "\f13b";
 }
-.pbmit-builto-icon-check-box:before {
+.pbmit-mvzinfratech-icon-check-box:before {
     content: "\f13c";
 }
-.pbmit-builto-icon-check:before {
+.pbmit-mvzinfratech-icon-check:before {
     content: "\f13d";
 }
-.pbmit-builto-icon-dot:before {
+.pbmit-mvzinfratech-icon-dot:before {
     content: "\f13e";
 }
-.pbmit-builto-icon-period:before {
+.pbmit-mvzinfratech-icon-period:before {
     content: "\f13f";
 }
-.pbmit-builto-icon-plus:before {
+.pbmit-mvzinfratech-icon-plus:before {
     content: "\f140";
 }
-.pbmit-builto-icon-minimize-sign:before {
+.pbmit-mvzinfratech-icon-minimize-sign:before {
     content: "\f141";
 }
