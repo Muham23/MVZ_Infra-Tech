@@ -48,8 +48,21 @@
 			height: auto;
 		}
 		.customer-logos .slick-slide {
-			width: 100px;
-			/* Fixed width for each slide */
+			width:auto;
+		}
+		.video-container {
+			/* position: relative; */
+			overflow: hidden;
+			width: 100%;
+			padding-top: 56.25%;
+		}
+		.video-container video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
 		}
 	</style>
 </head>
@@ -242,19 +255,14 @@
 								<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide"
 									data-thumb="images/Slider-01-50x100.jpg" data-anim="adpr:false;" data-in="o:0;"
 									data-out="a:false;">
-									<!-- <img src="images/Slider-01.jpg" alt="" title="Slider-01" width="1923" height="950"
-										class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/Slider-01.jpg"
-										data-no-retina> -->
-									<!-- <div class="video-background"> -->
-										<div>
-											<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-												<source src="video/video.mp4" type="video/mp4" alt="" title="Slider-01"
-													width="1923" height="950" class="rev-slidebg tp-rs-img rs-lazyload"
-													data-lazyload="video/video.mp4" data-no-retina>
-												Your browser does not support the video tag.
-											</video>
-										</div>
-									<!-- </div> -->
+									<div class="video-container">
+										<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+											<source src="video/video.mp4" type="video/mp4" alt="" title="Slider-01"
+												width="1923" height="950" class="rev-slidebg tp-rs-img rs-lazyload"
+												data-lazyload="video/video.mp4" data-no-retina>
+											Your browser does not support the video tag.
+										</video>
+									</div>
 									<rs-layer id="slider-1-slide-1-layer-0" data-type="text" data-color="rgb(23,65,91)"
 										data-rsp_ch="on" data-xy="xo:15px,30px,30px,30px;yo:270px,204px,185px,153px;"
 										data-text="w:normal;s:105,80,55,44;l:115,80,55,44;fw:700;"
@@ -303,111 +311,6 @@
 											class="pbmit-slider-subheading">Let us help you create. </span>
 									</rs-layer>
 								</rs-slide>
-								<!-- <rs-slide style="position: absolute;" data-key="rs-7" data-title="Slide"
-									data-thumb="images/Slider-02-50x100.jpg" data-anim="adpr:false;" data-in="o:0;"
-									data-out="a:false;">
-									<img src="images/Slider-02.jpg" alt="" title="Slider-02" width="2358" height="999"
-										class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/Slider-02.jpg"
-										data-no-retina>
-									<rs-layer id="slider-1-slide-7-layer-0" data-type="text" data-color="#000000" data-rsp_ch="on"
-										data-xy="xo:15px,30px,30px,30px;yo:270px,204px,185px,153px;"
-										data-text="w:normal;s:105,80,55,44;l:115,80,55,44;fw:700;"
-										data-dim="w:830px,669px,508px,386px;" data-frame_0="o:1;"
-										data-frame_0_chars="d:5;o:0;rX:90deg;oZ:-50;" data-frame_1="st:290;sp:1350;"
-										data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;"
-										data-frame_999="o:0;st:w;sR:7710;"
-										style="z-index:8;font-family:'Space Grotesk';text-transform:uppercase;"> <span
-											class="pbmit-slider-title"> Building </span> <br>
-										your vision
-									</rs-layer>
-									<rs-layer id="slider-1-slide-7-layer-2" data-type="text" data-color="#666666" data-rsp_ch="on"
-										data-xy="xo:15px,30px,30px,0;y:m;yo:65px,87px,66px,92px;"
-										data-text="w:normal;s:20,16,16,11;l:30,24,24,12;"
-										data-dim="w:529px,426px,408px,251px;" data-vbility="t,t,t,f"
-										data-frame_0="x:-100%;skX:45;" data-frame_1="st:1300;sp:1700;"
-										data-frame_999="o:0;st:w;sR:7470;" style="z-index:7;font-family:'Rubik';">
-										<span class="pbmit-heading-desc">With
-											us you don’t need to guess our work will be sure to impress We’re the
-											construction kings.</span>
-									</rs-layer>
-									<a id="slider-1-slide-7-layer-3" class="rs-layer rev-btn" href="contact.html"
-										target="_self" data-type="button" data-color="#000000" data-rsp_ch="on"
-										data-xy="xo:15px,236px,240px,200px;y:m;yo:155px,169px,140px,100px;"
-										data-text="w:normal;s:14,15,15,13;l:60,25,25,24;fw:700;"
-										data-dim="minh:0px,none,none,none;"
-										data-padding="t:0,18,14,13;r:30,30,30,20;b:0,18,14,13;l:30,30,30,20;"
-										data-frame_1="e:power4.inOut;st:1400;sp:1800;sR:980;"
-										data-frame_1_sfx="se:blocktotop;" data-frame_999="o:0;st:w;sR:6820;"
-										data-frame_hover="c:#fff;bgc:#001e4c;bor:0px,0px,0px,0px;bri:120%;"
-										style="z-index:10;background-color:rgb(228,197,177);font-family:'Space Grotesk';text-transform:uppercase;">Contact
-										Us<svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19"
-											height="19" viewBox="0 0 19 19" xml:space="preserve">
-											<line x1="1" y1="18" x2="17.8" y2="1.2"></line>
-											<line x1="1.2" y1="1" x2="18" y2="1"></line>
-											<line x1="18" y1="17.8" x2="18" y2="1"></line>
-										</svg>
-									</a>
-									<rs-layer id="slider-1-slide-7-layer-5" data-type="text" data-color="#071323"
-										data-rsp_ch="on" data-xy="xo:15px,30px,30px,30px;yo:230px,167px,150px,117px;"
-										data-text="w:normal;s:14,13,13,15;l:24,19,14,12;fw:700;"
-										data-dim="w:529px,426px,323px,250px;" data-frame_0="sX:0.9;sY:0.9;"
-										data-frame_1="st:530;sp:1000;sR:530;" data-frame_999="o:0;st:w;sR:7470;"
-										style="z-index:6;font-family:'Space Grotesk';text-transform:uppercase;"><span
-											class="pbmit-slider-subheading">Let us help you create. </span>
-									</rs-layer> </rs-slide>
-								<rs-slide style="position: absolute;" data-key="rs-8" data-title="Slide"
-									data-thumb="images/Slider-03-50x100.jpg" data-anim="adpr:false;" data-in="o:0;"
-									data-out="a:false;">
-									<img src="images/Slider-03.jpg" alt="" title="Slider-03" width="2557" height="1049"
-										class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="images/Slider-03.jpg"
-										data-no-retina>
-									<rs-layer id="slider-1-slide-8-layer-0" data-type="text" data-color="#000000" data-rsp_ch="on"
-										data-xy="xo:15px,30px,30px,30px;yo:270px,204px,185px,153px;"
-										data-text="w:normal;s:105,80,55,44;l:115,80,55,44;fw:700;"
-										data-dim="w:830px,669px,508px,386px;" data-frame_0="o:1;"
-										data-frame_0_chars="d:5;o:0;rX:90deg;oZ:-50;" data-frame_1="st:290;sp:1350;"
-										data-frame_1_chars="e:power4.inOut;d:10;oZ:-50;"
-										data-frame_999="o:0;st:w;sR:7710;"
-										style="z-index:8;font-family:'Space Grotesk';text-transform:uppercase;"> <span
-											class="pbmit-slider-title"> Building </span> <br>
-										your vision
-									</rs-layer><rs-layer id="slider-1-slide-8-layer-2" data-type="text" data-color="#666666" data-rsp_ch="on"
-										data-xy="xo:15px,30px,30px,0;y:m;yo:65px,87px,66px,92px;"
-										data-text="w:normal;s:20,16,16,11;l:30,24,24,12;"
-										data-dim="w:529px,426px,408px,251px;" data-vbility="t,t,t,f"
-										data-frame_0="x:-100%;skX:45;" data-frame_1="st:1300;sp:1700;"
-										data-frame_999="o:0;st:w;sR:7470;" style="z-index:7;font-family:'Rubik';">
-										<span class="pbmit-heading-desc">With
-											us you don’t need to guess our work will be sure to impress We’re the
-											construction kings.
-										</span>
-									</rs-layer>
-									<a id="slider-1-slide-8-layer-3" class="rs-layer rev-btn" href="contact.html" target="_self"
-										data-type="button" data-color="#000000" data-rsp_ch="on"
-										data-xy="xo:15px,236px,240px,200px;y:m;yo:155px,169px,140px,100px;"
-										data-text="w:normal;s:14,15,15,13;l:60,25,25,24;fw:700;"
-										data-dim="minh:0px,none,none,none;"
-										data-padding="t:0,18,14,13;r:30,30,30,20;b:0,18,14,13;l:30,30,30,20;"
-										data-frame_1="e:power4.inOut;st:1400;sp:1800;sR:980;"
-										data-frame_1_sfx="se:blocktotop;" data-frame_999="o:0;st:w;sR:6820;"
-										data-frame_hover="c:#fff;bgc:#001e4c;bor:0px,0px,0px,0px;bri:120%;"
-										style="z-index:10;background-color:rgb(228,197,177);font-family:'Space Grotesk';text-transform:uppercase;">Contact
-										Us<svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg"
-											xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19"
-											height="19" viewBox="0 0 19 19" xml:space="preserve">
-											<line x1="1" y1="18" x2="17.8" y2="1.2"></line>
-											<line x1="1.2" y1="1" x2="18" y2="1"></line>
-											<line x1="18" y1="17.8" x2="18" y2="1"></line>
-										</svg>
-									</a><rs-layer id="slider-1-slide-8-layer-5" data-type="text" data-color="#071323"
-										data-rsp_ch="on" data-xy="xo:15px,30px,30px,30px;yo:230px,167px,150px,117px;"
-										data-text="w:normal;s:14,13,13,15;l:24,19,14,12;fw:700;"
-										data-dim="w:529px,426px,323px,250px;" data-frame_0="sX:0.9;sY:0.9;"
-										data-frame_1="st:530;sp:1000;sR:530;" data-frame_999="o:0;st:w;sR:7470;"
-										style="z-index:6;font-family:'Space Grotesk';text-transform:uppercase;"><span
-											class="pbmit-slider-subheading">Let us help you create. </span>
-									</rs-layer> </rs-slide> -->
 							</rs-slides>
 						</rs-module>
 					</rs-module-wrap>
@@ -1374,7 +1277,7 @@
 				<!-- Testimonial End -->
 
 				<!-- Client Start -->
-				<div class="container-fluid p-0">
+				<div class="container">
 					<div class="row g-0">
 						<section class="client-section_one">
 							<section class="customer-logos slider">
@@ -1619,5 +1522,18 @@
 			]
 		});
 	});
+	function adjustVideoContainer() {
+		var videoContainers = document.querySelectorAll('.video-container');
+
+		videoContainers.forEach(function (container) {
+			var width = container.offsetWidth;
+			var height = width * (9 / 16); // Change this ratio to match your video's aspect ratio
+			container.style.height = height + 'px';
+		});
+	}
+
+	window.addEventListener('resize', adjustVideoContainer);
+	document.addEventListener('DOMContentLoaded', adjustVideoContainer);
+
 
 </script>

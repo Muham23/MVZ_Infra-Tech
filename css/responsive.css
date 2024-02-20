@@ -2135,3 +2135,6 @@ body {
 		max-width: 20%;
 	}
 }
+#rev_slider_1_1_wrapper{
+	visibility: hidden !important;
+}

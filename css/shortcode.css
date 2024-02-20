@@ -3217,7 +3217,7 @@ body {
 	margin-bottom: 0;
     text-align: center;
 	height: 100%;
-    border-left: 1px solid #cecece;
+    /* border-left: 1px solid #cecece; */
 }
 .pbmit-client-style-2 .pbmit-client-wrapper {
 	overflow: hidden;
