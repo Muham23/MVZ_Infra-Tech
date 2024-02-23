@@ -39,32 +39,6 @@
 	<link rel="stylesheet" type="text/css" href="css/rs6.css">
 
 	<link rel="stylesheet" type="text/css" href="css/logo-loader.css">
-	<style>
-		.customer-logos div {
-			margin: 0 10px;
-		}
-		.customer-logos img {
-			width: 100%;
-			height: auto;
-		}
-		.customer-logos .slick-slide {
-			width:auto;
-		}
-		.video-container {
-			/* position: relative; */
-			overflow: hidden;
-			width: 100%;
-			padding-top: 56.25%;
-		}
-		.video-container video {
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
-		}
-	</style>
 </head>
 
 <body>
@@ -86,10 +60,10 @@
 							<div class="d-flex justify-content-between">
 								<div class="pbmit-pre-header-left">
 									<ul class="pbmit-contact-info">
-										<li><i class="pbmit-base-icon-marker"></i>Los Angeles Gournadi, 1230 Bariasl
+										<li><i class="pbmit-base-icon-marker"></i>Dahej Bypass Road, Bharuch, 392001
 										</li>
-										<li><i class="pbmit-base-icon-contact"></i>contact@mvzinfotech.com</li>
-										<li><i class="pbmit-base-icon-call"></i>+(123) 1234-567-8901 </li>
+										<li><i class="pbmit-base-icon-contact"></i>mvzinfratech@gmail.com</li>
+										<li><i class="pbmit-base-icon-call"></i>+91 9824028371 </li>
 									</ul>
 								</div>
 								<div class="pbmit-pre-header-right">
@@ -121,7 +95,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="pbmit-main-header-area">
+					<div class="pbmit-main-header-area" id="navbar">
 						<div class="container">
 							<div class="d-flex align-items-center justify-content-between pbmit-header-content">
 								<div class="pbmit-logo-menuarea d-flex align-items-center">
@@ -184,12 +158,13 @@
 													<div class="pbmit-contact-box">
 														<div class="pbmit-contact-list pbmit-location">
 															<h4>WE ARE HERE</h4>
-															<span>85 Briston Mint Street, London, E1 8LG, USA</span>
+															<span>Dahej Bypass Road, Bharuch, 392001</span>
 														</div>
 														<div class="pbmit-contact-list pbmit-phone">
 															<h4>CALL & MAIL</h4>
-															<span>+800-123-4567</span>
-															<span>pbminfo@user.com</span>
+															<span>+91 9824028371</span>
+															<span>+91 95584536857</span>
+															<span>mvzinfratech@gmail.com</span>
 														</div>
 														<div class="pbmit-contact-list pbmit-time">
 															<h4>OPENING HOURS</h4>
@@ -283,7 +258,8 @@
 										<span class="pbmit-heading-desc">With
 											us you don’t need to guess our work will be sure to impress We’re the
 											construction kings.</span>
-									</rs-layer><a id="slider-1-slide-1-layer-3" class="rs-layer rev-btn"
+									</rs-layer>
+									<!-- <a id="slider-1-slide-1-layer-3" class="rs-layer rev-btn"
 										href="contact.html" target="_self" data-type="button" data-color="rgb(23,65,91)"
 										data-rsp_ch="on"
 										data-xy="xo:15px,236px,240px,200px;y:m;yo:155px,169px,140px,100px;"
@@ -301,7 +277,7 @@
 											<line x1="1.2" y1="1" x2="18" y2="1"></line>
 											<line x1="18" y1="17.8" x2="18" y2="1"></line>
 										</svg>
-									</a>
+									</a> -->
 									<rs-layer id="slider-1-slide-1-layer-5" data-type="text" data-color="rgb(23,65,91)"
 										data-rsp_ch="on" data-xy="xo:15px,30px,30px,30px;yo:230px,167px,150px,117px;"
 										data-text="w:normal;s:14,13,13,15;l:24,19,14,12;fw:700;"
@@ -1327,11 +1303,11 @@
 								<div class="widget">
 									<h2 class="widget-title">EMAIL address</h2>
 									<div class="textwidget">
-										<p>hello@mvzinfotech.com</p>
+										<p>mvzinfratech@gmail.com</p>
 									</div>
 									<div class="pbmit-widget-number">
-										<h2 class="widget-title">Phone Number</h2>
-										<p>Main: 012 456 789 0123 <br> Local: 234 567 890 1234</p>
+										<h2 class="widget-title">Mobile Number</h2>
+										<p>Line 1: +91 9824028371 <br>Line 2: +91 9558453685</p>
 									</div>
 								</div>
 							</div>
@@ -1471,69 +1447,7 @@
 	<script src="js/rs6.min.js"></script>
 	<script src="js/logo-loader.js"></script>
 	<script src="js/slick.js"></script>
-
+	<script src="js/common.js"></script>
 </body>
 
 </html>
-<script>
-	document.getElementById("year").innerHTML = new Date().getFullYear();
-	$(document).ready(function () {
-		$('.customer-logos').slick({
-			slidesToShow: 6,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 1500,
-			arrows: false,
-			dots: false,
-			pauseOnHover: false,
-			responsive: [{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 4
-				}
-			}, {
-				breakpoint: 520,
-				settings: {
-					slidesToShow: 3
-				}
-			}]
-		});
-		$('.services-slider').slick({
-			slidesToShow: 3,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 1500,
-			arrows: false,
-			dots: false,
-			pauseOnHover: false,
-			responsive: [
-				{
-					breakpoint: 1024, // Tablet devices and below
-					settings: {
-						slidesToShow: 2 // Show 2 slides for tablets
-					}
-				},
-				{
-					breakpoint: 768, // Mobile devices and below
-					settings: {
-						slidesToShow: 1 // Show 1 slide for mobile devices
-					}
-				}
-			]
-		});
-	});
-	function adjustVideoContainer() {
-		var videoContainers = document.querySelectorAll('.video-container');
-
-		videoContainers.forEach(function (container) {
-			var width = container.offsetWidth;
-			var height = width * (9 / 16); // Change this ratio to match your video's aspect ratio
-			container.style.height = height + 'px';
-		});
-	}
-
-	window.addEventListener('resize', adjustVideoContainer);
-	document.addEventListener('DOMContentLoaded', adjustVideoContainer);
-
-
-</script>

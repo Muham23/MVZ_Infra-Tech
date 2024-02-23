@@ -1934,4 +1934,42 @@ textarea.form-control{
 .testimonial-title{
     color: var(--pbmit-global-color) !important;
 }
+/* */
+.customer-logos div {
+    margin: 0 10px;
+}
+.customer-logos img {
+    width: 100%;
+    height: auto;
+}
+.customer-logos .slick-slide {
+    width:auto;
+}
+.video-container {
+    /* position: relative; */
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sticky {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: white;
+-webkit-box-shadow: 0 15px 38px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 15px 38px rgba(0, 0, 0, 0.1);
+box-shadow: 0 15px 38px rgba(0, 0, 0, 0.1);
+}
+
+.sticky + .content {
+padding-top: 60px;
+}
 
