@@ -70,7 +70,7 @@ function myFunction() {
 		navbar.classList.remove("sticky");
 	}
     console.log(">>> window.screenY",window.pageYOffset)
-    if ((mobileQuery || tabletQuery) && window.pageYOffset < 250) {
+    if ((mobileQuery || tabletQuery) && window.pageYOffset < 420) {
         // The viewport is 600 pixels wide or less
         navbar.classList.remove("sticky");
         console.log('This is a narrow screen — less than 600px wide.');
