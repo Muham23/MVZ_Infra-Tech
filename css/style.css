@@ -721,13 +721,11 @@
     padding: 0;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-gap: 0 70px;
+    grid-gap: 5 70px;
     padding-bottom: 30px;
     border-bottom: 1px solid #e7e8ea;
 }
 .pbmit-portfolio-lines-ul li{
-	text-align: center;
-    display: flex;
 }
 .pbmit-portfolio-line-title{
 	display: block;
@@ -742,7 +740,6 @@
 }
 .pbmit-portfolio-line-value{
 	font-size: 16px;
-    padding-left: 7px;
     line-height: 26px;
 }
 .pbmit-pf-col_2{
