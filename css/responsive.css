@@ -223,8 +223,8 @@ body {
 	}
 
 	.site-navigation ul.navigation>li>a {
-		height: 90px;
-		line-height: 90px;
+		height: 40px;
+		line-height: 40px;
 		margin: 0 25px;
 	}
 
@@ -835,6 +835,12 @@ body {
 	#hideexceptmobile{
 		display: none;
 	}
+	#navbar{
+		background-color:var(--pbmit-white-color) !important;
+	}
+	.site-navigation ul.navigation > li > a {
+		color: var(--pbmit-blackish-color) !important;
+   }
 	/*=== Section-Padding ===*/
 	.section-lg {
 		padding-top: 70px;
@@ -2134,4 +2140,7 @@ body {
 }
 #rev_slider_1_1_wrapper{
 	visibility: hidden !important;
+}
+#navbar{
+	background-color:var(--pbmit-secondary-color);
 }

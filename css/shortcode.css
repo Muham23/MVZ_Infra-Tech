@@ -1916,14 +1916,23 @@ body {
 .pbmit-contact-info li:first-child {
     padding-left: 0;
 }
-.pbmit-social-links li:not(:last-child), 
+/* .pbmit-social-links li:not(:last-child), 
 .pbmit-contact-info li:not(:last-child) {
-    padding: 0 20px 0 0;
-}
+    padding: 10px 20px 10px 10px;
+} */
 .site-header .pbmit-social-links li, .pbmit-contact-info li {
     display: inline-block;
     vertical-align: top;
 	float: left;
+	border-right: 1px solid #ddd;
+	padding: 20px 20px 10px 10px;
+}
+.site-header .pbmit-social-links-data li, .pbmit-contact-info li {
+    display: inline-block;
+    vertical-align: top;
+	float: left;
+	/* border-right: 1px solid #ddd; */
+	padding: 20px 20px 10px 10px;
 }
 .pbmit-contact-info li i {
     font-size: 18px;
@@ -1972,12 +1981,12 @@ body {
     stroke: var(--pbmit-global-color);
 }
 .pbmit-nav-menu-toggle{
-	padding: 0 27px;
+	padding: 0 15px;
     margin-left: 20px;
     line-height: var(--pbmit-header-height);
     background-color: var(--pbmit-global-color);
-    line-height: 90px;
-    height: 90px;
+    line-height: 40px;
+    height: 40px;
 	border: none;
 }
 .pbmit-nav-menu-toggle svg path {
@@ -2154,8 +2163,8 @@ body {
 }
 /** Header Style 1 **/
 .header-style-1 .pbmit-pre-header-wrapper {
-    height: 50px;
-    line-height: 50px;
+    /* height: 50px; */
+    line-height: 30px;
     border-bottom: 1px solid #e6e7e9;
 	color: var(--pbmit-secondary-color);
 }
@@ -2166,7 +2175,7 @@ body {
     color: var(--pbmit-secondary-color);
 }
 .header-style-1 .pbmit-logo-area {
-	background-color: rgb(23,65,91);
+	/* background-color: rgb(23,65,91); */
     padding: 0 50px 0 35px;
 }
 /** Header Style 2 **/
@@ -2635,7 +2644,7 @@ body {
 	stroke: var(--pbmit-blackish-color);
 }
 .nav-tabs .nav-link.active .mvzinfotech-tabs-heading{
-	color: var(--pbmit-global-color);
+	/* color: var(--pbmit-global-color); */
 }
 .nav-tabs .nav-link.active svg.pbmit-svg-arrow{
 	opacity: 1;
@@ -3811,4 +3820,9 @@ body {
 .pbmit-sortable-list a.pbmit-selected {
     background: var(--pbmit-blackish-color);
     color: var(--pbmit-white-color);
+}
+.justify-content-end {
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
 }

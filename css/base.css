@@ -571,7 +571,7 @@ INDEX:
      z-index: 1;
 	 text-transform: uppercase;
      letter-spacing: 0px;
-     color: var(--pbmit-blackish-color);
+     color: var(--pbmit-white-color);
 }
 .site-header .site-navigation ul.navigation > li.active > a:after{
     color: var(--pbmit-global-color);
