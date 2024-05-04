@@ -1946,17 +1946,17 @@ textarea.form-control{
 }
 .video-container {
     /* position: relative; */
-    /* overflow: hidden;
+    overflow: hidden;
     width: 100%;
-    padding-top: 56.25%; */
+    padding-top: 56.25%;
 }
 .video-container video {
-    /* position: absolute;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; */
+    object-fit: cover;
 }
 .sticky {
 position: fixed;
