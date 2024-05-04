@@ -1926,6 +1926,9 @@ body {
 	float: left;
 	border-right: 1px solid #ddd;
 }
+.site-header .pbmit-social-links li, .pbmit-contact-info li:last-child{
+	border-right: none !important;
+}
 .site-header .pbmit-social-links-data li, .pbmit-contact-info li {
     display: inline-block;
     vertical-align: top;
@@ -2163,7 +2166,7 @@ body {
 /** Header Style 1 **/
 .header-style-1 .pbmit-pre-header-wrapper {
     /* height: 50px; */
-	/* padding: 10px; */
+	padding: 10px;
     line-height: 30px;
     border-bottom: 1px solid #e6e7e9;
 	color: var(--pbmit-secondary-color);

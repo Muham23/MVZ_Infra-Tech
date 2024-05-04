@@ -1945,7 +1945,7 @@ textarea.form-control{
     width:auto;
 }
 .video-container {
-    /* position: relative; */
+    position: relative;
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
