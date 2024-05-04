@@ -832,9 +832,9 @@ body {
 }
 
 @media(max-width:1024px) {
-	#hideexceptmobile{
+	/* #hideexceptmobile{
 		display: none;
-	}
+	} */
 	#navbar{
 		background-color:var(--pbmit-white-color) !important;
 	}
@@ -1395,9 +1395,9 @@ body {
 }
 
 @media(min-width:768px) {
-	#hideexceptmobile{
+	/* #hideexceptmobile{
 		display: none;
-	}
+	} */
 	/*=== Homepage 03 ===*/
 	.who-we-are-three_col_1 {
 		width: 30.794%;
@@ -2074,6 +2074,9 @@ body {
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
+	.header-style-1 .pbmit-logo-area {
+        background-color: rgb(23, 65, 91) !important;
+    }
 
 	.testimonial-one_col_1,
 	.testimonial-one_col_2,
