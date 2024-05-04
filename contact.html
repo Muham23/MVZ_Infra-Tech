@@ -391,8 +391,23 @@
 								<div class="contact-form_main">
 									<h2 class="form_title">Leave a Reply </h2>
 									<form class="contact-form" method="post" id="contact-form"
-										action="https://formspree.io/f/moqgjjrp">
+										action="https://formspree.io/f/mgegrdep">
 										<div class="row">
+											<div class="col-md-12">
+												<!-- <p>What can we help you with?</p> -->
+												<div class="custom-dropdown">
+													<select name="What can we help you with?" class="form-control">
+														<option value="" disabled selected>Select an option</option>
+														<option>Buying a property</option>
+														<option>Land Proposal</option>
+														<option>Registering as a Channel Partner</option>
+														<option>Become a SOBHA Vendor</option>
+														<option>Media Enquiries</option>
+														<option>Investor Enquiries</option>
+														<option>Registering for Email Alerts</option>
+													</select>
+												</div>
+											</div>
 											<div class="col-md-6">
 												<input type="text" class="form-control" placeholder="Name" name="Name"
 													required>
@@ -627,6 +642,14 @@
 	<script src="js/rbtools.min.js"></script>
 	<script src="js/rs6.min.js"></script>
 	<script src="js/common.js"></script>
+	<script>
+		document.getElementById('dropdown').addEventListener('change', function() {
+			var selectedOption = this.options[this.selectedIndex];
+			if (selectedOption.disabled) {
+				this.selectedIndex = 0; // Reset to placeholder if disabled option selected
+			}
+		});
+	</script>	
 
 </body>
 
