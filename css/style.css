@@ -1944,6 +1944,28 @@ textarea.form-control{
 .customer-logos .slick-slide {
     width:auto;
 }
+
+.center-vertical {
+    position: relative;
+}
+
+.center-vertical img {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Media query for tablet and mobile */
+@media only screen and (max-width: 768px) {
+    .center-vertical img {
+        /* position: static; */
+        transform: none;
+        top: 10px;
+        left: auto;
+    }
+}
+
 .video-container {
     position: relative;
     overflow: hidden;

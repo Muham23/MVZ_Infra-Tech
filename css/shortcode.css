@@ -2234,7 +2234,7 @@ body {
 	font-size: 15px;
 	color: rgba(255, 255, 255,.6);
     border-top: 1px solid rgba(7, 19, 35, 0.1);
-	background-color: rgb(23,65,91);
+	background-color:rgb(0, 33, 87);
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
@@ -2346,7 +2346,7 @@ body {
 /*  10 - Title Bar
 /*----------------------------------------*/
 .pbmit-title-bar-wrapper{
-	background-image: url(../images/titlebar-bg.jpg);
+	/* background-image: url(../images/titlebar-bg.jpg); */
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2354,6 +2354,19 @@ body {
 	position: relative;
     z-index: 1;
 }
+
+.pbmit-title-bar-wrapper.custom-bg-2 {
+    background-image: url(../images/about-us.JPG);
+}
+
+.pbmit-title-bar-wrapper.custom-bg-3 {
+	background-image: url(../images/project-header.JPG);
+}
+
+.pbmit-title-bar-wrapper.custom-bg-4 {
+	background-image: url(../images/project-header.JPG);
+}
+
 .pbmit-title-bar-wrapper:before{
 	content: "";
     display: block;

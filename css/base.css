@@ -17,7 +17,7 @@ INDEX:
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet');
  :root {
      --pbmit-global-color: rgb(228,197,177);
-     --pbmit-secondary-color: rgb(23,65,91);
+     --pbmit-secondary-color: rgb(0, 33, 87);
      --pbmit-light-color: #f1f1f1;
      --pbmit-white-color: #ffffff;
      --pbmit-blackish-color: #071323;
@@ -25,7 +25,7 @@ INDEX:
      --pbmit-global-color-rgb: rgb(228,197,177);
      --pbmit-link-color-hover: rgb(228,197,177);
      --pbmit-global-color-rgb: rgb(228,197,177);
-     --pbmit-secondary-color-rgb: rgb(23,65,91);
+     --pbmit-secondary-color-rgb: rgb(0, 33, 87);
      --pbmit-responsive-breakpoint: 1200px;
      --pbmit-body-typography-font-family:'Rubik', sans-serif;
      --pbmit-body-typography-variant: regular;

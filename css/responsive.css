@@ -1425,10 +1425,10 @@ body {
 	#hideexceptmobile{
 		display: block;
 	}
-	.header-style-1 .pbmit-logo-area {
+	/* .header-style-1 .pbmit-logo-area {
 		padding: 0 30px 0 25px;
-		background-color: rgb(23, 65, 91) !important;
-	}
+		background-color: rgb(0, 33, 87) !important;
+	} */
 	.hideviewallproject{
 		display: none;
 	}
@@ -2074,9 +2074,7 @@ body {
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
-	.header-style-1 .pbmit-logo-area {
-        background-color: rgb(23, 65, 91) !important;
-    }
+	
 
 	.testimonial-one_col_1,
 	.testimonial-one_col_2,
