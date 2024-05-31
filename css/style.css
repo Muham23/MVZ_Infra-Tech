@@ -2015,5 +2015,11 @@ padding-top: 60px;
     box-shadow: none; /* Remove focus box shadow */
 }
 
+.slider img {
+    height: 400px; /* Set your desired height */
+    object-fit: cover; /* Cover the entire container while maintaining aspect ratio */
+    width: 100%;
+}
+
 
 
