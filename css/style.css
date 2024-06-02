@@ -716,6 +716,10 @@
     line-height: 58px;
     margin-bottom: 25px;
 	text-transform: uppercase;
+    font-family: math;
+    font-weight: 700;
+    color: rgb(0, 33, 87);
+
 }
 .pbmit-portfolio-lines-ul{
     list-style: none;
@@ -735,10 +739,9 @@
     line-height: 24px;
     letter-spacing: .5px;
     text-transform: uppercase;
-	font-weight: normal;
+	font-weight: bold;
     font-style: normal;
     color: var(--pbmit-global-color);
-	font-family: var(--pbmit-heading-typography-font-family);
 }
 .pbmit-portfolio-line-value{
 	font-size: 16px;

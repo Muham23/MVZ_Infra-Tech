@@ -78,6 +78,7 @@ body {
 .pbmit-heading-subheading.text-white .pbmit-subtitle,
 .pbmit-heading-subheading.text-white .pbmit-title{
 	color: var(--pbmit-white-color);
+	font-size: xx-large;
 }
 
 /*----------------------------------------*/
@@ -882,8 +883,8 @@ body {
 }
 .pbmit-service-style-1 .pbmit-service-title{
 	margin-bottom: 95px;
-    font-size: 20px;
-    line-height: 38px;
+    font-size: 18px;
+    line-height: 30px;
 	text-transform: uppercase;
 }
 .pbmit-service-style-1 .pbmit-port-cat a {
@@ -2356,15 +2357,15 @@ body {
 }
 
 .pbmit-title-bar-wrapper.custom-bg-2 {
-    background-image: url(../images/about-us.JPG);
+    background-image: url(../images/Slider-03.jpg);
 }
 
 .pbmit-title-bar-wrapper.custom-bg-3 {
-	background-image: url(../images/project-header.JPG);
+	background-image: url(../images/matar-project-04.JPG);
 }
 
 .pbmit-title-bar-wrapper.custom-bg-4 {
-	background-image: url(../images/matar-project-04.JPG);
+	background-image: url(../images/about-04.png);
 }
 
 .pbmit-title-bar-wrapper:before{
@@ -2944,6 +2945,61 @@ body {
 #rev_slider_1_1_wrapper .persephone.tparrows.tp-rightarrow:before{
 	content:'\e814'
 }
+
+/* Desktop styles */
+@media (min-width: 1367px) {
+    .pbmit-slider-area,
+    #rev_slider_1_1_wrapper,
+    #rev_slider_1_1 {
+        height: 720px !important;
+    }
+}
+
+/* Laptop styles */
+@media (max-width: 1366px) and (min-width: 769px) {
+    .pbmit-slider-area,
+    #rev_slider_1_1_wrapper,
+    #rev_slider_1_1 {
+        height: 600px !important;
+    }
+}
+
+/* Tablet styles */
+@media (max-width: 1024px) and (min-width: 768px) and (orientation: portrait) {
+    .pbmit-slider-area,
+    #rev_slider_1_1_wrapper,
+    #rev_slider_1_1 {
+        height: auto ;
+    }
+}
+
+/* 820x1180 resolution */
+@media (width: 820px) and (height: 1180px) {
+    .pbmit-slider-area,
+    #rev_slider_1_1_wrapper,
+    #rev_slider_1_1 {
+        height: auto ;
+    }
+}
+
+/* 853x1280 resolution */
+@media (width: 853px) and (height: 1280px) {
+    .pbmit-slider-area,
+    #rev_slider_1_1_wrapper,
+    #rev_slider_1_1 {
+        height: auto ;
+    }
+}
+
+.rs-slides {
+    height: 100% !important;
+}
+
+.rs-slide img.rev-slidebg {
+    height: 100% !important;
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
 /** Slider 02 **/
 .pbmit-slider-title{
 	background-color:#fff; 
