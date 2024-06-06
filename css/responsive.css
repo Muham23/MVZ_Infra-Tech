@@ -2135,6 +2135,48 @@ body {
 	}
 }
 
+/* Default styling for mobile devices */
+.who-we-are-three_content .content-row {
+    margin-top: 20px; /* Adjust as needed for mobile */
+}
+
+.pbmit-title_desc {
+    margin-top: 10px; /* Adjust as needed for mobile */
+}
+
+@media (min-width: 576px) {
+    .who-we-are-three_content .content-row {
+        margin-top: 30px; /* Adjust as needed for tablets */
+    }
+}
+
+@media (min-width: 768px) {
+    .who-we-are-three_content .content-row {
+        margin-top: 50px; /* Adjust as needed for small laptops */
+    }
+}
+
+@media (min-width: 992px) {
+    .who-we-are-three_content .content-row {
+        margin-top: 60px; /* Adjust as needed for medium laptops */
+    }
+
+    .pbmit-title_desc {
+        margin-top: -10px; /* Adjust as needed for medium laptops */
+    }
+}
+
+@media (min-width: 1200px) {
+    .who-we-are-three_content .content-row {
+        margin-top: 71px; /* Original margin for large desktops */
+    }
+
+    .pbmit-title_desc {
+        margin-top: -20px; /* Original negative margin for large desktops */
+    }
+}
+
+
 @media screen and (min-width: 768px) {
 	.col-md-20percent {
 		-webkit-box-flex: 0;
