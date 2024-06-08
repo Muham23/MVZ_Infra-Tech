@@ -643,7 +643,7 @@ body {
 	margin-right: 15px;
 	display: inherit;
 	-webkit-text-stroke: 1px var(--pbmit-blackish-color);
-	color: transparent;
+	color: rgb(0, 33, 87);
 }
 .mvzinfotech-ele-fid-style-1 .pbmit-fid-title{
 	font-size: 16px;
@@ -660,7 +660,7 @@ body {
     right: 0;
     text-transform: initial !important;
     position: relative;
-	color: transparent;
+	color: rgb(0, 33, 87);;
 }
 .pbmit-bg-color-global .mvzinfotech-ele-fid-style-1 .pbmit-fid-inner .pbmit-fid{
 	color: var(--pbmit-blackish-color);
@@ -2395,7 +2395,7 @@ body {
     text-transform: uppercase;
     font-style: normal;
 	margin-bottom: 10px;
-	color: var(--pbmit-blackish-color);
+	color: white;
 	font-family: var(--pbmit-heading-typography-font-family);
 }
 .pbmit-tbar-title-small{
@@ -2406,7 +2406,7 @@ body {
     text-transform: uppercase;
     font-style: normal;
 	margin-bottom: 10px;
-	color: var(--pbmit-blackish-color);
+	color: white;
 	font-family: var(--pbmit-heading-typography-font-family);
 }
 .pbmit-title-bar-wrapper .pbmit-breadcrumb{
