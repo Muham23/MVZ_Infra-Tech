@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send Email with Attachment</title>
+</head>
+<body>
+    <h2>Send an Email with Attachment</h2>
+    <form action="send_career.php" method="post" enctype="multipart/form-data">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="subject">Subject:</label><br>
+        <input type="text" id="subject" name="subject" required><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="attachment">Attachment:</label><br>
+        <input type="file" id="attachment" name="attachment" required><br><br>
+        
+        <input type="submit" value="Send Email">
+    </form>
+</body>
+</html>
+
+ <script>
+        async function sendEmail() {
+            // Get form data
+            const form = document.getElementById('emailForm');
+            const formData = new FormData(form);
+
+            try {
+                // Send data using fetch
+                const response = await fetch('send_career.php', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    alert('Email sent successfully.');
+                } else {
+                    alert('Failed to send email.');
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('An error occurred.');
+            }
+        }
+    </script>
