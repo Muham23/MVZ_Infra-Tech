@@ -2191,3 +2191,27 @@ body {
 #navbar{
 	background-color:var(--pbmit-secondary-color);
 }
+/* For laptops with a screen width between 768px and 1024px */
+/* added bilal patel */
+@media screen and (min-width: 1024px) and (max-height: 1310px) {
+	.floting-bar-wrap .closepanel {
+		position: absolute;
+		z-index: 600;
+		right: 0;
+		top: 40px;
+		display: block;
+		width: 50px;
+		height: 44px;
+		font-size: 20px;
+		line-height: 36px;
+	}
+	.floting-bar-widget-area .widget {
+		margin-bottom: 20px;
+	}	
+	.pbmit-contact-box .pbmit-contact-list:not(:last-child) {
+		margin-bottom: 20px;
+	}	
+	.floting-bar-wrap {
+		padding: 75px 65px 120px 65px;
+	}
+  }

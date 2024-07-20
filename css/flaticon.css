@@ -213,3 +213,35 @@ i[class^="flaticon-"]:before, i[class*=" pbmit-mvzinfratech-icon-"]:before {
 .pbmit-mvzinfratech-icon-minimize-sign:before {
     content: "\f141";
 }
+.pbmit-mvzinfratech-icon-renewable-sector {
+    display: inline-block;
+    width: 60px; /* Set to the width of your PNG icon */
+    height: 60px; /* Set to the height of your PNG icon */
+    background-image: url('../fonts/icons8-reneweable-energy-96.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pbmit-mvzinfratech-icon-petrochemical-sector {
+    display: inline-block;
+    width: 60px; 
+    height: 60px; 
+    background-image: url('../fonts/icons8-oil-rig-96.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pbmit-mvzinfratech-icon-heavy-industrial {
+    display: inline-block;
+    width: 60px; 
+    height: 60px; 
+    background-image: url('../fonts/icons8-constructing-96.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.pbmit-mvzinfratech-icon-goverment-building {
+    display: inline-block;
+    width: 60px; 
+    height: 60px; 
+    background-image: url('../fonts/icons8-building-96.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

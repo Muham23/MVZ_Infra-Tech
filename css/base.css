@@ -1043,3 +1043,81 @@ INDEX:
     text-align: justify;
 }
 
+.career-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.job-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s, background-color 0.2s;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color:var(--pbmit-secondary-color);
+}
+
+.job-card:hover .job-title, .job-card:hover .job-experience {
+    color: #fff;
+}
+
+.job-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.job-experience {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.job-detail-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow:2px 2px 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+#job-description {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: white;
+    border-radius: 5px;
+    color:var(--pbmit-secondary-color);
+    cursor: pointer;
+    transition: background-color 0.2s;
+    
+}
+
+button:hover {
+    background-color: var(--pbmit-secondary-color);
+    color:white;
+}
