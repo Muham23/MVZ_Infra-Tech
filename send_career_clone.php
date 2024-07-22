@@ -5,7 +5,7 @@
  $lastName = filter_var($data['LastName'], FILTER_SANITIZE_STRING);
  $name = $firstName . ' ' . $lastName; // Concatenate with a space between first and last names 
  $email = filter_var($data['Email'], FILTER_SANITIZE_EMAIL);
- $phone = filter_var($data['PhoneNo'], FILTER_SANITIZE_STRING);
+ $mobileno = filter_var($data['MobileNo'], FILTER_SANITIZE_STRING);
  $dateOfBirth = filter_var($data['DOB'], FILTER_SANITIZE_STRING);
  $totalExperience = filter_var($data['ExperienceYears'], FILTER_SANITIZE_NUMBER_INT) . ' per years';
  $currentCompany = filter_var($data['CurrentCompany'], FILTER_SANITIZE_STRING);
@@ -56,8 +56,8 @@ if ($_FILES['attachment'] && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
                         <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">' . htmlspecialchars($mainEmail) . '</td>
                     </tr>
                     <tr>
-                        <th style="text-align: left; padding: 8px; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Phone</th>
-                        <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">' . htmlspecialchars($phone) . '</td>
+                        <th style="text-align: left; padding: 8px; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Mobile No</th>
+                        <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">' . htmlspecialchars($mobileno) . '</td>
                     </tr>
                     <tr>
                         <th style="text-align: left; padding: 8px; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Date of Birth</th>
