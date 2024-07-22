@@ -1,28 +1,33 @@
 <?php
-// Define your dynamic variables
-$name = 'Bilal Yusuf';
-$phone = '+91 7820071715';
-$dateOfBirth = '22 Feb 1994';
-$totalExperience = '5 years 5 months';
-$currentCompany = 'Peach Software';
-$currentSalary = '8 Lakh per annum';
-$expectedSalary = '12 Lakh per annum';
-$skills = ['Cricket', 'Prompt Engineering in AI'];
-$experienceDetails = [
-    '2 Year JS TechNo, Ahmedabad (Php Developer)',
-    'Continue Working 12th March 2023 Peach Software'
-];
-$educationDetails = ['BCA', 'MSC IT'];
-$mainEmail = 'patelbilal15@gmail.com'; // Corrected variable name for email sender
+ $jsonString = $_POST['data'];
+ $data = json_decode($jsonString, true);
+ $firstName = filter_var($data['FirstName'], FILTER_SANITIZE_STRING);
+ $lastName = filter_var($data['LastName'], FILTER_SANITIZE_STRING);
+ $name = $firstName . ' ' . $lastName; // Concatenate with a space between first and last names 
+ $email = filter_var($data['Email'], FILTER_SANITIZE_EMAIL);
+ $phone = filter_var($data['PhoneNo'], FILTER_SANITIZE_STRING);
+ $dateOfBirth = filter_var($data['DOB'], FILTER_SANITIZE_STRING);
+ $totalExperience = filter_var($data['ExperienceYears'], FILTER_SANITIZE_NUMBER_INT) . ' per years';
+ $currentCompany = filter_var($data['CurrentCompany'], FILTER_SANITIZE_STRING);
+ $currentPosition = filter_var($data['CurrentPosition'], FILTER_SANITIZE_STRING);
+ $currentSalary = filter_var($data['CurrentSalary'], FILTER_SANITIZE_NUMBER_INT) . ' per annum';
+ $expectedSalary = filter_var($data['ExpectedSalary'], FILTER_SANITIZE_NUMBER_INT) . ' per annum'; 
+ $jobType   = filter_var($data['jobType'], FILTER_SANITIZE_STRING); 
+
+ // Handle array data
+ $skills = $data['skills'];
+ $experienceDetails = $data['experiences'];
+ $educationDetails = $data['educations'];
+$to = 'patelbilal15@gmail.com'; // Corrected variable name for email sender
 
 // Email details
 $subject = 'Candidate Application Details';
-$to = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+$mainEmail = filter_var($email, FILTER_VALIDATE_EMAIL);
 $year = date("Y");
 // Define a boundary
 $boundary = md5(time());
 // Check if the attachment was uploaded successfully
-if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
+if ($_FILES['attachment'] && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
     $attachment = $_FILES['attachment'];
     $message = '
 <html lang="en">
@@ -58,6 +63,10 @@ if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR
                         <th style="text-align: left; padding: 8px; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Date of Birth</th>
                         <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">' . htmlspecialchars($dateOfBirth) . '</td>
                     </tr>
+                     <tr>
+                        <th style="text-align: left; padding: 8px; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Apply for Job</th>
+                        <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">' . htmlspecialchars($jobType) . '</td>
+                    </tr>
                 </table>
             </div>
 
@@ -75,6 +84,10 @@ if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR
                     <tr>
                         <th style="text-align: left; padding: 8px; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Current Salary</th>
                         <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">' . htmlspecialchars($currentSalary) . '</td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left; padding: 8px; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Current Position</th>
+                        <td style="padding: 8px; border-bottom: 1px solid #dee2e6;">' . htmlspecialchars($currentPosition) . '</td>
                     </tr>
                     <tr>
                         <th style="text-align: left; padding: 8px; background-color: #f8f9fa; border-bottom: 1px solid #dee2e6;">Expected Salary</th>
@@ -142,15 +155,15 @@ if (isset($_FILES['attachment']) && $_FILES['attachment']['error'] == UPLOAD_ERR
     $email_body .= "--{$boundary}\r\n";
 
     $file = fopen($file_tmp, "rb");
-    $data = fread($file, filesize($file_tmp));
+    $clonedata = fread($file, filesize($file_tmp));
     fclose($file);
 
-    $data = chunk_split(base64_encode($data));
+    $clonedata = chunk_split(base64_encode($clonedata));
 
     $email_body .= "Content-Type: {$file_type}; name=\"{$file_name}\"\r\n";
     $email_body .= "Content-Disposition: attachment; filename=\"{$file_name}\"\r\n";
     $email_body .= "Content-Transfer-Encoding: base64\r\n\r\n";
-    $email_body .= $data . "\r\n\r\n";
+    $email_body .= $clonedata . "\r\n\r\n";
     $email_body .= "--{$boundary}--";
     // Send email
     if (mail($to, $subject, $email_body, $headers)) {
