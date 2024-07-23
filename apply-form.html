@@ -256,7 +256,7 @@
 		<div style="align-items: center;">
 			<div class="contact-form_main">
 				<h2 class="form_title">Add Your Career Details</h2>
-				<form class="career-form" method="post" id="career-form" action="send_email.php"
+				<form class="career-form" method="post" id="career-form" action="send_career_clone.php"
 					enctype="multipart/form-data">
 					<div class="row">
 						<div class="col-md-6">
@@ -276,12 +276,8 @@
 								required>
 						</div>
 						<div class="col-md-6">
-							<div class="row">
-								<div class="col-md-6">
-									<input type="number" class="form-control" placeholder=" Total Experience"
+									<input type="text" class="form-control" placeholder=" Total Experience"
 										name="ExperienceYears" required>
-								</div>
-							</div>
 						</div>
 						<div class="col-md-6">
 							<input type="text" class="form-control" placeholder="Current Company" name="CurrentCompany"
@@ -292,11 +288,11 @@
 								name="CurrentPosition" required>
 						</div>
 						<div class="col-md-6">
-							<input type="number" class="form-control" placeholder="Current Salary (per annum)"
+							<input type="text" class="form-control" placeholder="Current Salary (per annum)"
 								name="CurrentSalary" required>
 						</div>
 						<div class="col-md-6">
-							<input type="number" class="form-control" placeholder="Expected Salary (per annum)"
+							<input type="text" class="form-control" placeholder="Expected Salary (per annum)"
 								name="ExpectedSalary" required>
 						</div>
 					</div>
@@ -355,8 +351,11 @@
 						<button type="button" class="add-btn" onclick="addEducation()">Add Another Education</button>
 					</div>
 
-					<div class="col-lg-12">
-						<input type="file" class="form-control" name="attachment" required>
+					<div class="col-md-12" style="margin-top: 10px;">
+						<div class="row upload-row">
+							<label>Upload your resume</label>
+						  <input type="file" class="form-control" name="attachment" required>
+						</div>
 					</div>
 
 					<div class="col-lg-12 text-center">
@@ -555,11 +554,12 @@
 	<script src="js/rs6.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script src="js/common.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="js/jquery.validate.min.js"> </script>  
 	<script
-		src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+		src="js/bootstrap-datepicker.min.js"></script>
 	<script>
 		$(document).ready(function () {
+			$("#career-form").validate ();  
 			$('#dob').datepicker({
 				format: 'yyyy-mm-dd',
 				autoclose: true
@@ -896,6 +896,17 @@
 			margin-top: 20px;
 			text-align: center;
 		}
+		label.error {
+    background: none !important;
+    color: red !important;
+    border-radius: 0px 0 10px 10px;
+    margin-bottom: 15px;
+    padding: 0 10px;
+    font-size: 12px;
+    display: block;
+    margin-top: 0px;
+    margin-right: 20%;
+}
 	</style>
 </body>
 
