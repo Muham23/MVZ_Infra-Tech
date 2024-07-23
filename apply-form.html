@@ -352,9 +352,11 @@
 					</div>
 
 					<div class="col-md-12" style="margin-top: 10px;">
-						<div class="row upload-row">
-							<label>Upload your resume</label>
-						  <input type="file" class="form-control" name="attachment" required>
+						<div class="upload-container">
+							<label for="resume-upload" class="upload-label">Upload your resume</label>
+							<input type="file" id="resume-upload" class="upload-input" name="attachment" required>
+							<label for="resume-upload" class="upload-button">Choose File</label>
+							<span id="file-name" class="file-name">No file chosen</span>
 						</div>
 					</div>
 
@@ -628,6 +630,12 @@
 				return `${index + 1}. ${expe.jobPosition} at ${expe.companyName} for ${expe.totalTime}`;
 			});
 		}
+
+		document.getElementById('resume-upload').addEventListener('change', function() {
+			const fileName = document.getElementById('file-name');
+			fileName.textContent = this.files.length ? this.files[0].name : 'No file chosen';
+		});
+		
 		document.getElementById('career-form').addEventListener('submit', function (event) {
 			event.preventDefault(); // Prevent the default form submission
 
@@ -770,11 +778,11 @@
 		.contact-form_main {
 			max-width: 800px;
 			width: 100%;
-			margin: 20px;
+			/* margin: 20px; */
 			padding: 20px;
 			background-color: #fff;
 			border-radius: 10px;
-			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 		}
 
 		.form_title {
@@ -897,16 +905,62 @@
 			text-align: center;
 		}
 		label.error {
-    background: none !important;
-    color: red !important;
-    border-radius: 0px 0 10px 10px;
-    margin-bottom: 15px;
-    padding: 0 10px;
-    font-size: 12px;
-    display: block;
-    margin-top: 0px;
-    margin-right: 20%;
+			background: none !important;
+			color: red !important;
+			border-radius: 0px 0 10px 10px;
+			margin-bottom: 15px;
+			padding: 0 10px;
+			font-size: 12px;
+			display: block;
+			margin-top: 0px;
+			margin-right: 20%;
+		}
+
+		.upload-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.upload-label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.upload-input {
+    display: none;
+}
+
+.upload-button {
+    background-color: rgb(0, 33, 87);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.file-name {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive adjustments
+@media (max-width: 768px) {
+    .upload-button {
+        width: 100%;
+    }
+} */
+
 	</style>
 </body>
 

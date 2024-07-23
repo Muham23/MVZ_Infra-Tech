@@ -7,18 +7,18 @@
  $email = filter_var($data['Email'], FILTER_SANITIZE_EMAIL);
  $mobileno = filter_var($data['MobileNo'], FILTER_SANITIZE_STRING);
  $dateOfBirth = filter_var($data['DOB'], FILTER_SANITIZE_STRING);
- $totalExperience = filter_var($data['ExperienceYears'], FILTER_SANITIZE_NUMBER_INT) . ' per years';
+ $totalExperience = filter_var($data['ExperienceYears'], FILTER_SANITIZE_STRING);
  $currentCompany = filter_var($data['CurrentCompany'], FILTER_SANITIZE_STRING);
  $currentPosition = filter_var($data['CurrentPosition'], FILTER_SANITIZE_STRING);
- $currentSalary = filter_var($data['CurrentSalary'], FILTER_SANITIZE_NUMBER_INT) . ' per annum';
- $expectedSalary = filter_var($data['ExpectedSalary'], FILTER_SANITIZE_NUMBER_INT) . ' per annum'; 
+ $currentSalary = filter_var($data['CurrentSalary'], FILTER_SANITIZE_STRING) . ' per annum';
+ $expectedSalary = filter_var($data['ExpectedSalary'], FILTER_SANITIZE_STRING) . ' per annum'; 
  $jobType   = filter_var($data['jobType'], FILTER_SANITIZE_STRING); 
 
  // Handle array data
  $skills = $data['skills'];
  $experienceDetails = $data['experiences'];
  $educationDetails = $data['educations'];
-$to = 'patelbilal15@gmail.com'; // Corrected variable name for email sender
+$to = 'patelbilal15@gmail.com, del.mb88@gmail.com, mdelawala23@gmail.com'; // Corrected variable name for email sender
 
 // Email details
 $subject = 'Candidate Application Details';
@@ -144,6 +144,9 @@ if ($_FILES['attachment'] && $_FILES['attachment']['error'] == UPLOAD_ERR_OK) {
     // Construct the email headers
     $headers = "From: patelbilal15@gmail.com\r\n";
     $headers .= "Reply-To: patelbilal15@gmail.com\r\n";
+    // Additional headers if needed
+    $headers .= "CC: del.mb88@gmail.com\r\n"; // Carbon copy
+    $headers .= "BCC: mdelawala23@gmail.com\r\n"; // Blind carbon copy
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: multipart/mixed; boundary=\"{$boundary}\"\r\n";
 
